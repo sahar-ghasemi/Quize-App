@@ -85,7 +85,7 @@ export default function Page() {
                 </li>
               ))
             ) : (
-              <Skeleton />
+              <Skeleton count={4} duration={2} height={50} />
             )}
 
             {checked ? (
